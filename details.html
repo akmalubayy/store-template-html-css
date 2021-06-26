@@ -220,7 +220,7 @@
                       class="mr-4 rounded-circle"
                     />
                     <div class="media-body">
-                      <h5 class="mt2 mb-1">Puimekster</h5>
+                      <h5 class="mt-2 mb-1">Puimekster</h5>
                       I thought it was not good for living room. I really happy
                       to decided buy this product last week now feels like
                       homey.
@@ -233,7 +233,7 @@
                       class="mr-4 rounded-circle"
                     />
                     <div class="media-body">
-                      <h5 class="mt2 mb-1">Puimekster</h5>
+                      <h5 class="mt-2 mb-1">Puimekster</h5>
                       Color is great with the minimalist concept. Even I thought
                       it was made by Cactus industry. I do really satisfied with
                       this.
@@ -246,7 +246,7 @@
                       class="mr-4 rounded-circle"
                     />
                     <div class="media-body">
-                      <h5 class="mt2 mb-1">Puimekster</h5>
+                      <h5 class="mt-2 mb-1">Puimekster</h5>
                       When I saw at first, it was really awesome to have with.
                       Just let me know if there is another upcoming product like
                       this.
@@ -255,6 +255,19 @@
                 </ul>
               </div>
             </div>
+        </section>
+        <section class="store-description">
+          <div class="container">
+          <form action="">
+            <div class="row">
+              <div class="col-8">
+                <label for="comment">Comment here</label>
+                <textarea name="post" id="descriptionEditor" class="form-control"></textarea>
+                <button type="submit" class="btn btn-success mt-3">Comment</button>
+              </div>
+            </div>
+          </form>
+
           </div>
         </section>
       </div>
@@ -314,5 +327,9 @@
       });
     </script>
     <script src="/script/navbar-scroll.js"></script>
+    <script src="https://cdn.ckeditor.com/4.16.1/standard/ckeditor.js"></script>
+    <script>
+      CKEDITOR.replace('descriptionEditor');
+    </script>
   </body>
 </html>
